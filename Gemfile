@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'therubyracer'
+
 
 group :development, :test do
   # 開発・テスト環境ではSQLite3を使う 5/29に追加
